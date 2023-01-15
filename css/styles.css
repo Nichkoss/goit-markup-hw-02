@@ -1,0 +1,118 @@
+:root {
+    /* Font */
+    --main-font: 'Roboto', sans-serif;
+    --title-font: 'Raleway', sans-serif;
+
+    /* Text colors  */
+    --text-navyblue: #2E2F42;
+    --text-slate: #434455;
+    --activate-iris: #4D5AE5;
+    --pressed-ocean: #404BBF;
+    --success-green-100: rgb(49, 208, 170);
+    --success-green-75: rgb(49, 208, 170, 0.75);
+    --success-green-50: rgb(49, 208, 170, 0.5);
+    --success-green-10: rgba(49, 208, 170, 0.102);
+    --light-slate: #8E8F99;
+    --accent: #E7E9FC;
+    --navyblue-modal: rgb(46, 47, 66, 0.4);
+
+
+    /* Background colors */
+    --bg-light-cloud: #F4F4FD;
+    --bg-hero-gray: rgba(46, 47, 66, 0.7);
+}
+
+/* Base styles */
+body{
+font-family: var(--main-font);
+}
+ul{
+    list-style: none;
+}
+p{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+a{
+    text-decoration: none;
+    color: #434455;
+}
+a:hover,a:focus{
+    color: #404BBF;
+}
+button{
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    
+    cursor: pointer;
+}
+button:hover,button:focus{
+    background: #404BBF;
+}
+/*Header*/
+.header{
+
+}
+.header-nav {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    color: var(--text-navyblue);
+}
+
+.maintitle,.maintitle:hover, .maintitle:active {
+    font-family: var(--title-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: calc(24 / 18);
+
+    align-items: center;
+    letter-spacing: 0.03em;
+
+    color: var(--activate-iris);
+}
+
+.header-color {
+    color: var(--text-navyblue);
+}
+
+.header-pages {
+    font-weight: 500;
+}
+
+.header-page {}
+
+.header-contacts {
+    font-weight: 400;
+
+    color: var(--text-slate);
+}
+
+.contacts-item {}
+/*Footer*/
+.footer {
+    background-color: var(--text-navyblue);
+}
+
+.footer-title, .footer-title:hover, .footer-title:active {
+    font-family: var(--title-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: calc(21 / 18);
+
+    align-items: center;
+    letter-spacing: 0.03em;
+
+    color: var(--activate-iris)
+}
+
+.footer-color {
+    color: var(--bg-light-cloud);
+}
+
+.footer-desc {
+    color: var(--accent);
+}
+/*Portfolio*/

@@ -112,7 +112,7 @@ button:hover,button:focus{
     background-color: var(--text-navyblue);
 }
 
-.footer-title, .footer-title:hover, .footer-title:active {
+.footer-logo {
     font-family: var(--title-font);
     font-weight: 800;
     font-size: 18px;
@@ -124,7 +124,7 @@ button:hover,button:focus{
     color: var(--activate-iris)
 }
 
-.footer-color {
+.footer-second-color {
     color: var(--bg-light-cloud);
 }
 

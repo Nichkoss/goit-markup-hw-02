@@ -39,9 +39,7 @@ p{
 a{
     text-decoration: none;
 }
-a:hover,a:focus{
-    color: var(--pressed-ocean)
-}
+
 button{
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
@@ -85,9 +83,11 @@ button:hover,button:focus{
     line-height: 1.5;
     letter-spacing: 0.02em;
 
-    /* NAVY BLUE */
-
     color: var(--text-navyblue);
+}
+.now-link:hover,
+.now-link:focus {
+    color: var(--pressed-ocean)
 }
 
 .header-contacts {}
@@ -99,9 +99,12 @@ button:hover,button:focus{
     line-height: 1.5;
     letter-spacing: 0.02em;
 
-    /* SLATE */
-
     color: var(--text-slate);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--pressed-ocean)
 }
 
 /*Footer*/

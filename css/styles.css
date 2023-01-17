@@ -32,10 +32,6 @@ body{
 ul{
     list-style: none;
 }
-p{
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
 a{
     text-decoration: none;
 }
@@ -67,8 +63,6 @@ button:hover,button:focus{
     font-weight: 800;
     font-size: 18px;
     line-height: calc(24 / 18);
-
-    align-items: center;
     letter-spacing: 0.03em;
 
     color: var(--activate-iris);
@@ -78,15 +72,15 @@ button:hover,button:focus{
     color: var(--text-navyblue);
 }
 
-.now-link {
+.nav-link {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 
     color: var(--text-navyblue);
 }
-.now-link:hover,
-.now-link:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: var(--pressed-ocean)
 }
 
@@ -129,6 +123,8 @@ button:hover,button:focus{
 }
 
 .footer-desc {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--accent);
 }
 /*Portfolio*/
@@ -146,32 +142,6 @@ button:hover,button:focus{
 }
 .ctg-btn:hover, .ctg-btn:active {
     color: white;
-}
-
-/*Portfolio - Catalog section*/
-.ctl-section {}
-
-.subtitle {}
-
-.ctl-list {}
-
-.ctl-item {}
-
-.ctl-wrapper-list {}
-
-.ctl-wrapper {}
-
-.ctl-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-
-    color: var(--text-navyblue);
-}
-
-.ctl-category {
-    color: var(--text-slate);
 }
 
 /* Index HTML Main page*/
@@ -208,7 +178,7 @@ button:hover,button:focus{
 
 .desc-list-item {}
 
-.desc-subtitle {
+.section-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: calc(24 / 20);
@@ -217,15 +187,16 @@ button:hover,button:focus{
     color: var(--text-navyblue);
 }
 
-.desc-desc {
+.section-desc {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--text-slate);
 }
 /*Main page - What to do section*/
 .to-do-section {
 }
 
-.to-do-title{
-    font-weight: 700;
+.section-title{
     font-size: 36px;
     line-height: calc(40 / 36);
     letter-spacing: 0.02em;
@@ -241,29 +212,11 @@ button:hover,button:focus{
     background-color: var(--bg-light-cloud);
 }
 
-.team-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: calc(40 / 36);
-    letter-spacing: 0.02em;
-
-    color: var(--text-navyblue);
-}
-
 .team-list {}
 
 .team-list-item {}
 
 .team-photo {}
-
-.team-fullname {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-
-    color: var(--text-navyblue);
-}
 
 .team-position {
     font-weight: 400;
@@ -273,3 +226,13 @@ button:hover,button:focus{
 
     color: var(--text-slate);
 }
+
+
+/*Portfolio - Catalog section*/
+
+.list {}
+
+.list-item {}
+
+.image {}
+
